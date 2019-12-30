@@ -1,0 +1,42 @@
+export default {
+  list: [
+    {
+      key: 0,
+      no: 'DK000000000',
+      sj: '2019-01-01 12:00:00',
+      name: '快易贷',
+      jg: '上海高重信息科技有限公司',
+      dm: '913101103246443123',
+      content: '这是一段描述',
+      status: 0,
+      read: false,
+    },
+    {
+      key: 1,
+      no: 'DK000000001',
+      sj: '2019-01-01 12:00:00',
+      name: '苏科贷',
+      jg: '深圳市大疆创新科技有限公司',
+      dm: '914403007954257495',
+      content: '这是一段描述',
+      status: 1,
+      read: true,
+    },
+    {
+      key: 2,
+      no: 'DK000000002',
+      sj: '2019-01-01 12:00:00',
+      name: '苏科贷',
+      jg: '江铃汽车集团有限公司',
+      dm: '91360000158263759R',
+      content: '这是一段描述',
+      status: 2,
+      read: true,
+    },
+  ],
+  pagination: {
+    total: 3,
+    pageSize: 10,
+    current: 1,
+  },
+};

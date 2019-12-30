@@ -1,0 +1,42 @@
+export default {
+  list: [
+    {
+      key: 0,
+      no: 'Q0000000001',
+      sj: '2019-01-01 12:00:00',
+      name: '王大宝',
+      phone: '13012345678',
+      email: 'question@grandhonor.net',
+      title: '征信授权书',
+      content: '请问平台的授权证书模板可以在那里下载？',
+      status: 0,
+    },
+    {
+      key: 0,
+      no: 'Q0000000002',
+      sj: '2019-01-01 12:00:00',
+      name: '张三',
+      phone: '13012345678',
+      email: 'question@grandhonor.net',
+      title: '注册审批需要多久？',
+      content: '请问在你们平台注册以后，需要多久进行资质的审批呢？',
+      status: 0,
+    },
+    {
+      key: 0,
+      no: 'Q0000000003',
+      sj: '2019-01-01 12:00:00',
+      name: '李四',
+      phone: '13012345678',
+      email: 'question@grandhonor.net',
+      title: '金融政策',
+      content: '请问你们能提供什么样的金融相关政策？',
+      status: 0,
+    },
+  ],
+  pagination: {
+    total: 3,
+    pageSize: 10,
+    current: 1,
+  },
+};

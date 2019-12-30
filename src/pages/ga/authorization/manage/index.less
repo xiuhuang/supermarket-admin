@@ -1,0 +1,114 @@
+.competContainer {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-top: 0;
+  .saveBtn {
+    float: right;
+    margin: 5px 20px 0 0;
+  }
+  .tabs {
+    height: 42px;
+    overflow: hidden;
+    color: #827d7c;
+    text-align: justify;
+    ul {
+      height: 42px;
+      margin: 0;
+      padding: 0;
+      border-top: 1px solid #e6e6e6;
+      border-bottom: 1px solid #e6e6e6;
+      li {
+        float: left;
+        width: 138px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 40px;
+        text-align: center;
+        background: #f7f8fa;
+        border-right: 1px solid #e6e6e6;
+        cursor: pointer;
+      }
+      li:hover {
+        color: @primary-color;
+      }
+      .active {
+        height: 42px;
+        margin-top: -1px;
+        color: @primary-color;
+        line-height: 38px;
+        background-color: #fff;
+        border-top: 2px solid @primary-color;
+      }
+    }
+  }
+  .competContent {
+    padding: 20px;
+  }
+  .roles {
+    padding: 40px 20px 20px;
+    border: 1px solid #e6e6e6;
+  }
+  .none {
+    display: none;
+  }
+  .rolesList {
+    margin-top: 10px;
+    overflow: hidden;
+    border-radius: 1px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2);
+    ul {
+      width: 120%;
+      min-height: 300px;
+      padding: 0;
+      padding-right: 20%;
+      overflow-y: auto;
+      li {
+        height: 28px;
+        padding-left: 15px;
+        color: #827d7c;
+        font-size: 12px;
+        line-height: 28px;
+        cursor: pointer;
+      }
+      li.active {
+        color: #f2782f;
+        background-color: #fff8f0;
+      }
+    }
+  }
+  .competeTable {
+    table {
+      width: 100%;
+      color: #827d7c;
+      font-size: 12px;
+      text-align: center;
+      border: 1px solid #e6e6e6;
+      tr:nth-child(even) {
+        background-color: #f7f7f7;
+      }
+      th {
+        height: 42px;
+        font-weight: normal;
+        line-height: 40px;
+        background: #f7f8fa;
+      }
+      td {
+        height: 36px;
+        padding: 3px 15px;
+        line-height: 24px;
+        text-align: left;
+        border: 1px solid #e6e6e6;
+      }
+      td.competeTd {
+        max-width: 50%;
+        padding: 5px;
+        text-align: left;
+      }
+      .competeCheckbox {
+        margin-right: 8px;
+        margin-left: 0;
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+export default {
+  list: [
+    {
+      key: 0,
+      no: 'Q0000000001',
+      sj: '2019-01-01 12:00:00',
+      name: 'admin',
+      phone: '13012345678',
+      email: 'admin@123.net',
+      account: 'admin',
+      bumen: '部门1',
+      rule: '管理员',
+      status: 1,
+      remark: '',
+    },
+    {
+      key: 0,
+      no: 'Q0000000002',
+      sj: '2019-01-01 12:00:00',
+      name: 'user',
+      phone: '13012345678',
+      email: 'user@123.net',
+      account: 'user',
+      bumen: '部门2',
+      rule: '普通用户',
+      status: 1,
+      remark: '',
+    },
+  ],
+  pagination: {
+    total: 3,
+    pageSize: 10,
+    current: 1,
+  },
+};
